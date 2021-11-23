@@ -219,69 +219,6 @@
     <None Include="src\vendor\glm\ext\vector_ulp.inl">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="src\vendor\glm\gtc\bitfield.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\color_space.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\constants.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\epsilon.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\integer.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\matrix_access.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\matrix_inverse.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\matrix_transform.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\noise.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\packing.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\quaternion.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\quaternion_simd.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\random.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\reciprocal.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\round.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\type_precision.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\type_ptr.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtc\ulp.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtx\associated_min_max.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtx\bit.inl">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="src\vendor\glm\gtx\closest_point.inl">
-      <Filter>Header Files</Filter>
-    </None>
     <None Include="src\vendor\glm\gtx\color_encoding.inl">
       <Filter>Header Files</Filter>
     </None>
@@ -456,6 +393,87 @@
     <None Include="src\vendor\glm\gtx\wrap.inl">
       <Filter>Header Files</Filter>
     </None>
+    <None Include="src\vendor\glm\detail\type_gentype.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\detail\type_mat.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\detail\type_vec.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\bitfield.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\color_encoding.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\color_space.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\constants.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\epsilon.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\functions.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\integer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\matrix_access.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\matrix_inverse.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\matrix_transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\noise.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\packing.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\quaternion_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\random.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\reciprocal.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\round.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\type_precision.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\type_ptr.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\ulp.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtc\vec1.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtx\associated_min_max.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtx\bit.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="src\vendor\glm\gtx\closest_point.inl">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Renderer.h">
@@ -480,27 +498,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Texture.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\detail\_features.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\detail\_fixes.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\detail\_noise.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\detail\_swizzle.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\detail\_swizzle_func.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\detail\_vectorize.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\detail\compute_common.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\vendor\glm\detail\compute_vector_relational.hpp">
@@ -980,78 +977,6 @@
     <ClInclude Include="src\vendor\glm\ext\vector_ulp.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\bitfield.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\color_space.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\constants.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\epsilon.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\integer.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\matrix_access.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\matrix_integer.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\matrix_inverse.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\matrix_transform.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\noise.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\packing.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\quaternion.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\random.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\reciprocal.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\round.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\type_aligned.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\type_precision.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\type_ptr.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\ulp.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtc\vec1.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtx\associated_min_max.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtx\bit.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtx\closest_point.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\gtx\color_encoding.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\vendor\glm\gtx\color_space.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -1229,6 +1154,147 @@
     <ClInclude Include="src\vendor\glm\gtx\wrap.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\vendor\glm\simd\packing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\simd\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\simd\trigonometric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\simd\vector_relational.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\func_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\func_exponential.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\func_geometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\func_integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\func_matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\func_packing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\func_trigonometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\func_vector_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\type_gentype.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\type_int.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\type_mat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\type_vec.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\_features.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\_fixes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\_noise.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\_swizzle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\_swizzle_func.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\_vectorize.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\bitfield.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\color_space.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\epsilon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\functions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\matrix_access.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\matrix_integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\matrix_inverse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\matrix_transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\noise.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\packing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\quaternion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\random.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\reciprocal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\round.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\type_aligned.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\type_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\type_ptr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\ulp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtc\vec1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtx\associated_min_max.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtx\bit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtx\closest_point.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="src\vendor\glm\simd\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -1242,21 +1308,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\vendor\glm\simd\matrix.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\simd\neon.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\simd\packing.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\simd\platform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\simd\trigonometric.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\vendor\glm\simd\vector_relational.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\vendor\glm\common.hpp">
@@ -1328,9 +1379,21 @@
     <ClInclude Include="src\vendor\glm\vector_relational.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\vendor\glm\detail\compute_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\gtx\color_encoding.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\glm\simd\neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\textures\Niko.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Bloodmoon.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

@@ -174,7 +174,9 @@
     <None Include="src\vendor\glm\detail\func_trigonometric_simd.inl" />
     <None Include="src\vendor\glm\detail\func_vector_relational.inl" />
     <None Include="src\vendor\glm\detail\func_vector_relational_simd.inl" />
+    <None Include="src\vendor\glm\detail\type_gentype.inl" />
     <None Include="src\vendor\glm\detail\type_half.inl" />
+    <None Include="src\vendor\glm\detail\type_mat.inl" />
     <None Include="src\vendor\glm\detail\type_mat2x2.inl" />
     <None Include="src\vendor\glm\detail\type_mat2x3.inl" />
     <None Include="src\vendor\glm\detail\type_mat2x4.inl" />
@@ -187,6 +189,7 @@
     <None Include="src\vendor\glm\detail\type_mat4x4_simd.inl" />
     <None Include="src\vendor\glm\detail\type_quat.inl" />
     <None Include="src\vendor\glm\detail\type_quat_simd.inl" />
+    <None Include="src\vendor\glm\detail\type_vec.inl" />
     <None Include="src\vendor\glm\detail\type_vec1.inl" />
     <None Include="src\vendor\glm\detail\type_vec2.inl" />
     <None Include="src\vendor\glm\detail\type_vec3.inl" />
@@ -216,9 +219,11 @@
     <None Include="src\vendor\glm\ext\vector_relational.inl" />
     <None Include="src\vendor\glm\ext\vector_ulp.inl" />
     <None Include="src\vendor\glm\gtc\bitfield.inl" />
+    <None Include="src\vendor\glm\gtc\color_encoding.inl" />
     <None Include="src\vendor\glm\gtc\color_space.inl" />
     <None Include="src\vendor\glm\gtc\constants.inl" />
     <None Include="src\vendor\glm\gtc\epsilon.inl" />
+    <None Include="src\vendor\glm\gtc\functions.inl" />
     <None Include="src\vendor\glm\gtc\integer.inl" />
     <None Include="src\vendor\glm\gtc\matrix_access.inl" />
     <None Include="src\vendor\glm\gtc\matrix_inverse.inl" />
@@ -233,6 +238,7 @@
     <None Include="src\vendor\glm\gtc\type_precision.inl" />
     <None Include="src\vendor\glm\gtc\type_ptr.inl" />
     <None Include="src\vendor\glm\gtc\ulp.inl" />
+    <None Include="src\vendor\glm\gtc\vec1.inl" />
     <None Include="src\vendor\glm\gtx\associated_min_max.inl" />
     <None Include="src\vendor\glm\gtx\bit.inl" />
     <None Include="src\vendor\glm\gtx\closest_point.inl" />
@@ -302,10 +308,22 @@
     <ClInclude Include="src\vendor\glm\common.hpp" />
     <ClInclude Include="src\vendor\glm\detail\compute_common.hpp" />
     <ClInclude Include="src\vendor\glm\detail\compute_vector_relational.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\func_common.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\func_exponential.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\func_geometric.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\func_integer.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\func_matrix.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\func_packing.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\func_trigonometric.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\func_vector_relational.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\precision.hpp" />
     <ClInclude Include="src\vendor\glm\detail\qualifier.hpp" />
     <ClInclude Include="src\vendor\glm\detail\setup.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_float.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\type_gentype.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_half.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\type_int.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\type_mat.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_mat2x2.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_mat2x3.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_mat2x4.hpp" />
@@ -316,6 +334,7 @@
     <ClInclude Include="src\vendor\glm\detail\type_mat4x3.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_mat4x4.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_quat.hpp" />
+    <ClInclude Include="src\vendor\glm\detail\type_vec.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_vec1.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_vec2.hpp" />
     <ClInclude Include="src\vendor\glm\detail\type_vec3.hpp" />
@@ -475,6 +494,7 @@
     <ClInclude Include="src\vendor\glm\gtc\color_space.hpp" />
     <ClInclude Include="src\vendor\glm\gtc\constants.hpp" />
     <ClInclude Include="src\vendor\glm\gtc\epsilon.hpp" />
+    <ClInclude Include="src\vendor\glm\gtc\functions.hpp" />
     <ClInclude Include="src\vendor\glm\gtc\integer.hpp" />
     <ClInclude Include="src\vendor\glm\gtc\matrix_access.hpp" />
     <ClInclude Include="src\vendor\glm\gtc\matrix_integer.hpp" />
@@ -588,6 +608,7 @@
     <ClInclude Include="src\Texture.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\textures\Bloodmoon.png" />
     <Image Include="res\textures\Niko.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
