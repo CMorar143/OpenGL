@@ -1,5 +1,6 @@
 ﻿  Application.cpp
 C:\dev\OpenGL-Practice\OpenGL\src\VertexBufferLayout.h(20,3): warning C4551: function call missing argument list
-C:\dev\OpenGL-Practice\OpenGL\src\Application.cpp(65,5): warning C4551: function call missing argument list
-C:\dev\OpenGL-Practice\OpenGL\src\Application.cpp(66,5): warning C4551: function call missing argument list
+C:\dev\OpenGL-Practice\OpenGL\src\Application.cpp(55,5): warning C4551: function call missing argument list
+C:\dev\OpenGL-Practice\OpenGL\src\Application.cpp(56,5): warning C4551: function call missing argument list
+C:\dev\OpenGL-Practice\OpenGL\src\Application.cpp(58,14): warning C4101: 'renderer': unreferenced local variable
   OpenGL.vcxproj -> C:\dev\OpenGL-Practice\Debug\OpenGL.exe
